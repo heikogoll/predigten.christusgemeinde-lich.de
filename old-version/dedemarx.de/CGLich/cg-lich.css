@@ -1,0 +1,64 @@
+/* CSS (c) 2009 Christusgemeinde Lich e. V. */
+
+@media all {
+
+body {margin:0 0 0 110px; font-family:arial,helvetica,sans-serif; font-size:13px; line-height:135%; color:#000000; background-color:#ffffff;}
+h1 {color:#000000; font-size:24px; font-weight:bold; margin:5px 5px 30px 5px; padding:5px 0 0 0;}
+h2 {color:#800020; font-size:20px; font-weight:normal; margin:0px 170px 13px 85px; padding:20px 5px 0 5px; clear:both;}
+p {margin:0 170px 13px 85px; padding:0 5px 0 5px;}
+li {margin:0 170px 13px 65px; padding:0 5px 0 5px;}
+ol {margin-left:5px;}
+a {color:#004080; text-decoration:none;}
+a:hover {text-decoration:underline;}
+form {background-color:#ffffff; width:535px; margin:0 170px 13px 85px; padding:0 5px 0 5px; border:1px solid #004080;}
+input, textarea {font-size:12px; font-family:arial,helvetica,sans-serif; border:1px solid #004080; padding-left:5px; color:#004080; background-color:#f3f8fa;}
+em {font-weight:bold; font-style:normal;}
+
+#main {width:800px;}
+#header  { background-color: #ffffff; background-image: none; text-align: left; height: 120px; border-bottom: 1px solid #993300 }
+	#headerkuk { background-color: #ffffff; background-image: none; text-align: left; height: 120px; border-bottom: 1px solid #993300 }
+	#logo  { margin: 20px 15px 0 0; width: 100px; height: 100px; border: none }
+#logonew  { margin: 20px 0 0 0; width: 366px; height: 72px; border: none }
+	#logokuk { margin: 20px 0 0 0; width: 366px; height: 72px; float: none; border: none }
+	#menu {text-align:right; margin:7px 7px 0 0;}
+#content {clear:both;}
+#footer {height:10px; margin:30px 0px 0px 0px; border-top:1px solid #993300;}
+#bottom {margin:0 110px 80px 85px;}
+
+.clear {clear:both; padding-bottom:5px;}
+.f0 {clear:both; padding:5px 0 5px 0;}
+.f1 {width:90px; text-align:right; padding:0px 5px 0 0; float:left;}
+.f2 {float:left;}
+.f2in {width:400px; border:none;}
+.f2in_short {width:70px; border:none;}
+.fhigh {padding:3px 70px 0px 5px;}
+.ftext {width:400px; padding-top:1px; border:none;}
+.grau {color:#808080;}
+.green {color:#008040;}
+.hl {background-color:#fff0e6; padding-top:3px; padding-bottom:3px;}
+.img_left {float:left; padding-top:4px; margin-right:7px; border:none;}
+.img_right {}
+.img-un {border:none;}
+.m0, .m1 {margin-left:15px;color:#993300;}
+.m1 {font-weight:bold;}
+.list01 {border-top:1px solid #dddddd; padding:5x 0px 5px 0px; margin:0 5px 0px 5px; text-indent:-10x;}
+.null {}
+.p_left {width:280px; margin:0 0 13px 85px; padding:0 5px 0 5px; float:left;}
+.p_right {width:250px; margin:0 0 13px 0px; padding:0 5px 0 5px; float:left;}
+.reg {background-color:#d5e6ed; padding-top:3px; padding-bottom:3px;}
+.sidebar_right {width:105px; float:right; margin:3px 120px 10px 20px;}
+.sidebar_img {width:100px; height:100px; border:1px solid #004080;}
+
+}
+
+@media print {
+
+body {margin:0;}
+
+#header {background-image:none;}
+#main {width:650px;}
+#footer {margin-bottom:5px;}
+
+h2, p, li {margin-right:0;}
+
+}

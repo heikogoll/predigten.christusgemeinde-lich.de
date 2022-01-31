@@ -1,0 +1,13 @@
+Options +Indexes
+IndexOptions FancyIndexing VersionSort NameWidth=* HTMLTable Charset=UTF-8 IconsAreLinks SuppressHTMLPreamble SuppressDescription SuppressLastModified SuppressColumnsorting SuppressRules AddAltClass
+IndexOrderDefault Descending Name
+IndexStyleSheet "/assets/style.css"
+HeaderName /assets/header.html
+ReadmeName /assets/footer.html
+IndexIgnore .htaccess *.html /assets
+AddIconByType   /assets/audio.svg       audio/*
+AddAltByType    "Audio"                 audio/*
+AddIconByType   /assets/document.svg    application/*
+AddAltByType    "Dokument"              application/*
+AddIconByType   /assets/document.svg    text/*
+AddAltByType    "Dokument"              text/*
