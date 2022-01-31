@@ -1,4 +1,5 @@
 *.mp3
 .temp
-/bin
+/bin/ffmpeg*
+/bin/WinSCP*
 settings.cmd
